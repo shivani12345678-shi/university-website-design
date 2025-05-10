@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="./"><img src="image/logo.png" width="200px" height="100px"></a>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class= "nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./">HOME</a></li>
+                    <li><a href="#course">COURSE</a></li>
+                    <li><a href="#campus">CAMPUS</a></li>
+                    <li><a href="#facilities">FACILITIES</a></li>
+                    <li><a href="#testimonial">TESTIMONIAL</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box ">
+            <h1>World's mellon University</h1>
+            <p>Making website is now one of the easiest thing in the world.you just need to know the basic HTML and CSS,<br>javascript and you are good to go.</p>
+            <a href="#" class="hero-btn">Visit Us to know More</a>
+        </div>
+    </section>
+
+    <!---------Course-->
+    <section class="course" id="course">
+        <h1>Courses We offer</h1>
+        <p>BBA, BSCS, BA, BSC, B.TECH, B.PHARMA, MBBS, MBA, M.COM, M.TECH, MPA</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Intermediate education is a two-year academic program that students pursue after completing their 10th grade (Matriculation). It includes 11th and 12th grades and serves as a foundation for higher education or professional careers. This level of education is offered by colleges and higher secondary schools.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>A degree is an academic qualification awarded by a university or college after a student completes a specific course of study. Degrees are essential for career advancement, specialization in a field, and professional credibility.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Postgraduate education refers to the level of study that occurs after completing an undergraduate degree (bachelor's degree). This level of education allows students to specialize in a specific area, conduct advanced research, or develop skills in a professional field.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-----campus-->
+    <section class="campus" id="campus">
+        <h1>Our Global Campus</h1>
+        <p>A Global Campus refers to a university or educational institution that operates multiple campuses or learning hubs across different countries or regions, or offers education that can be accessed globally. The concept emphasizes international exposure, global learning, and a diverse student and faculty body.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="image/l.jpg" alt="">
+                <div class ="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="image/n.jpg">
+                <div class ="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="image/paris.jpg">
+                <div class="layer">
+                    <h3>PARIS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------Facilities-->
+    <section class="facilities" id="facilities">
+        <h1>Our Facilities</h1>
+        <p>Library,Lecture Halls,Laboratories,Research Center,Hostel</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/lib.jpg">
+                <h3>World Class library</h3>
+                <p>Our university’s world-class library is a modern knowledge hub designed to support students, researchers, and faculty with state-of-the-art facilities and vast learning resources. The library houses millions of books, research journals, e-books, and digital archives, making it a perfect place for academic excellence.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/hostel.jpg">
+                <h3>Hostel</h3>
+                <p>Our university offers world-class hostel facilities that ensure a comfortable, secure, and enriching living experience for students. Designed to feel like a home away from home, our hostels provide a safe, well-equipped, and student-friendly environment, allowing students to focus on their academics while enjoying a balanced social life.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/labot.jpg">
+                <h3>Laboratories</h3>
+                <p>A laboratory is a controlled environment designed for scientific research, experiments, testing, and analysis. Laboratories exist in various fields, including chemistry, biology, physics, medicine, and engineering.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------testimonials---->
+    <section class="testimonials" id="testimonial">
+        <h1>What our student says</h1>
+        <p>"The university provides excellent learning opportunities with modern facilities and experienced faculty."
+            "The campus environment is amazing, and the faculty is very supportive. I had the best experience!" </p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="image/b1.jpg">
+                <div>
+                    <p>"The university provides excellent learning opportunities with modern facilities and experienced faculty."</p>
+                    <h3>John Doe</h3> 
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="image/b2.jpg">
+                <div>
+                    <p>"The university provides excellent learning opportunities with modern facilities and experienced faculty."</p>
+                    <h3>Emma smith</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------call to action -->
+    <section class="cta" id="contact">
+        <h1>Enroll for our various online course <br>anywhere from the world</h1>
+        <a href="#contact"class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!----footer---------->
+    <section class="footer" id="about">
+        <h3>About Us</h3>
+        <p>Could you please clarify what you mean by "University key"? Are you looking for content about the key aspects or features of a university,<br> a specific program or initiative called "University Key," or something else entirely? Let me know so I can assist you better.</p>
+        <div class="">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa -youtube"></i>
+            <i class="fab fa-linkedin-in"></i>
+            
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+
+    <!----javascript for toggle menu-->
+    <script>
+        var navLinks =  document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
